@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin Creighton CV</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- TOGGLE NAVBAR -->
+    <nav id="navbar">
+        <div class="links turn">
+            <span class="front-wall"><i class="fas fa-home"></i></span>
+            <span class="back-wall"></span>
+            <span class="left-wall"></span>
+            <span class="right-wall"><a href="#">HOME</a></span>
+            <span class="top-wall"></span>
+            <span class="bottom-wall"></span>
+        </div>
+        <div class="links turn">
+            <span class="front-wall"><i class="fas fa-info-circle"></i></span>
+            <span class="back-wall"></span>
+            <span class="left-wall"></span>
+            <span class="right-wall"><a href="#about">ABOUT</a></span>
+            <span class="top-wall"></span>
+            <span class="bottom-wall"></span>
+        </div>
+        <div class="links turn">
+            <span class="front-wall"><i class="fas fa-graduation-cap"></i></span>
+            <span class="back-wall"></span>
+            <span class="left-wall"></span>
+            <span class="right-wall"><a href="#edu">EDUCATION</a></span>
+            <span class="top-wall"></span>
+            <span class="bottom-wall"></span>
+        </div>
+        <div class="links turn">
+            <span class="front-wall"><i class="fas fa-folder-open"></i></span>
+            <span class="back-wall"></span>
+            <span class="left-wall"></span>
+            <span class="right-wall"><a href="#portfolio">PORTFOLIO</a></span>
+            <span class="top-wall"></span>
+            <span class="bottom-wall"></span>
+        </div>
+    </nav>
+    <!-- WEBSITE WRAPPER -->
+    <div class="wrapper">
+
+        <!-- THIS IS THE HEADER -->
+        <header id="home">
+            <!-- MENU TOGGLE BUTTON -->
+            <div id="menu-toggle-btn" onclick="navBtn(), spinAnimation()">
+                <p class="spin"></p>
+                <p class="spin"></p>
+                <p class="spin"></p>
+            </div>
+            <div class="head">
+                <h1 class="main-title">Justin Creighton</h1>
+                <h1 class="animation">
+                    <span class="letter-1">J</span>
+                    <span class="letter-2">u</span>
+                    <span class="letter-3">s</span>
+                    <span class="letter-4">t</span>
+                    <span class="letter-5">i</span>
+                    <span class="letter-6">n</span>
+                    <span class="letter-7">C</span>
+                    <span class="letter-8">r</span>
+                    <span class="letter-9">e</span>
+                    <span class="letter-10">i</span>
+                    <span class="letter-11">g</span>
+                    <span class="letter-12">h</span>
+                    <span class="letter-13">t</span>
+                    <span class="letter-14">o</span>
+                    <span class="letter-15">n</span>
+                </h1>
+                <div>
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                    <h2 class="text-1">JUNIOR WEB DEV</h2>
+                    <h2 class="text-2">GUITARIST</h2>
+                    <h2 class="text-3">ARTIST</h2>
+                </div>
+            </div>
+
+            <!-- THIS IS THE CONTACT INFORATION -->
+            <main class="contact-info">
+                <aside class="holder">
+                    <div class="text-slider">
+                        <a href="cv/cv_justin_creighton.pdf">
+                            <div class="button-1">
+                                <p><i class="fas fa-cloud-download-alt"></i></p>
+                            </div>
+                        </a>
+                        <span class="tool-tip">Download</span>
+                    </div>
+                </aside>
+                <aside class="holder" onclick="toggleMenu()">
+                    <div class="main-button-toggle">
+                        <p><i class="fas fa-ellipsis-h"></i></p>
+                    </div>
+                    <span class="phone"><a href="https://www.facebook.com/justin.creighton.39" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
+                    <span class="email"><a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" target="_blank"><i class="fab fa-google"></i></a></span>
+                    <span class="portfolio"><a href="https://github.com/JustinErenJaeger?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></span>
+                    <span class="about-me"><a href="https://www.linkedin.com/in/justin-creighton-a146a8181/" target="_blank"><i class="fab fa-linkedin"></i></a></span>
+                </aside>
+                <aside class="holder">
+                    <div class="text-slider">
+                        <div class="button-2" onclick="galleryToggle()">
+                            <p><i class="far fa-images"></i></p>
+                        </div>
+                        <span class="tool-tip">Gallery</span>
+                    </div>
+                </aside>
+            </main>
+        </header>
+
+        <!-- THIS IS THE INTRO -->
+        <section id="about" class="about">
+            <div class="image">
+                <div class="imgContainer">
+                    <img src="images/justin.jpg" alt="">
+                </div>
+            </div>
+            <div class="intro">
+                <h3>Who Am I ?</h3>
+                <p id="paragraph1">I am a hardworking individual who likes challenges, because I believe it allows us to discover new things and reach greater heights. I enjoy working within a team, especially a diverse one, because it allows us to come up with ideas from faster and one receives ideas from differt perspectives.</p>
+                <p id="paragraph2">Technology has intreeged me for as long as I can remember and I am always looking for the latest trends and descoveries in the tech industry. I am good at problem solving and inovative. I am very creative, like to follow my passions, imagination and when I feel strongly about something I give it my all</p>
+            </div>
+        </section>
+
+        <!-- THIS IS THE BACKGROUND AFTER THE ABOUT SECTION -->
+        <div class="parralax-1 spacer"></div>
+
+        <!-- EDUCATIONAL INFORMATION -->
+        <div id="edu">
+            <div class="title">
+                <h2>EDUCATION</h2>
+            </div>
+            <div class="card-1">
+                <h2>Secondary Education</h2>
+                <img src="images/princeton.jpg" alt="">
+                <h3>School</h3>
+                <p>Matriculated 2015: Princeton Secondary High School-Western Cape/Mitchells'Plain-National Senior Certificate</p>
+                <h3>Subjects</h3>
+                <ul>
+                    <li>Afrikaans HL</li>
+                    <li>English FAL</li>
+                    <li>Maths</li>
+                    <li>Life Orientation</li>
+                    <li>Physical Science</li>
+                    <li>Civil Technology</li>
+                    <li>Engineering Graphics and Design</li>
+                </ul>
+            </div>
+            <div class="card-2">
+                <h2>Tertiary Education</h2>
+                <img src="images/Logo-Life-Choices.jpg" alt="">
+                <h3>Institution</h3>
+                <p>Completed : Salelesians Life Choices/Lansdowne-Full Stack Web Developer Certificate</p>
+                <h3>Duration</h3>
+                <p>1 Year (6 months Training and 6 months Internship)</p>
+                <h3>Skills</h3>
+                <p>Professional development, Life Skiils</p>
+            </div>
+        </div>
+
+        <!-- THIS IS THE SECTION FOR THE PROGRAMMING LANGUAGES -->
+        <main class="language-section">
+            <h2>LANGUAGES</h2>
+            <div class="language-icons">
+                <div>
+                    <p>
+                        <i class="fab fa-html5"></i>
+                        <span class="description">
+                            <span>HTML</span>
+                        </span>
+                        <span class="below"></span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fab fa-css3-alt"></i>
+                        <span class="description">
+                            <span>CSS</span>
+                        </span>
+                        <span class="below"></span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fab fa-js-square"></i>
+                        <span class="description">
+                            <span>JS</span>
+                        </span>
+                        <span class="below"></span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fab fa-sass"></i>
+                        <span class="description">
+                            <span>SASS</span>
+                        </span>
+                        <span class="below"></span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <i class="fab fa-node-js"></i>
+                        <span class="description">
+                            <span>NODE-JS</span>
+                        </span>
+                        <span class="below"></span>
+                    </p>
+            </div>
+            </div>
+        </main>
+
+        <!-- THIS IS THE BACKGROUND AFTER THE EDUCATION SECTION -->
+        <div class="parralax-2 spacer"></div>
+
+        <article id="portfolio" class="projects">
+            <h2>PORTFOLIO</h2>
+            <img src="icons/left.png" alt="" class="prev-project-btn" onclick="prevProject()">
+            <img src="icons/right.png" alt="" class="next-project-btn" onclick="nextProject()">
+            <div class="project-cube">
+                <div class="layer">
+                    <span class="cube cube-1 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-4">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-1">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-2 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-2">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-3 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-3">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-4 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-1">
+                        </span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-4">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-5 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-2">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-6 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-3">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-7 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-4">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-1">
+                        </span>
+                    </span>
+                    <span class="cube cube-8 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-2">
+                        </span>
+                    </span>
+                    <span class="cube cube-9 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-3">
+                        </span>
+                    </span>
+                    <span class="cube cube-10 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-1">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-4">
+                        </span>
+                    </span>
+                    <span class="cube cube-11 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-2">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-12 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-3">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                </div>
+                <div class="layer">
+                    <span class="cube cube-1 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-8">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-5">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-2 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-6">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-3 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-7">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-4 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-5">
+                        </span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-8">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-5 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-6">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-6 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-7">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-7 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-8">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-5">
+                        </span>
+                    </span>
+                    <span class="cube cube-8 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-6">
+                        </span>
+                    </span>
+                    <span class="cube cube-9 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-7">
+                        </span>
+                    </span>
+                    <span class="cube cube-10 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                                <img src="images/fashion-site.jpg" alt="" class="image-front-5">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-8">
+                        </span>
+                    </span>
+                    <span class="cube cube-11 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                                <img src="images/fashion-site.jpg" alt="" class="image-front-6">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-12 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                                <img src="images/fashion-site.jpg" alt="" class="image-front-7">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                </div>
+                <div class="layer">
+                    <span class="cube cube-1 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                                <img src="images/fashion-site.jpg" alt="" class="image-front-12">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-9">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-2 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-10">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-3 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-11">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-4 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-9">
+                        </span>
+                        <span class="front">
+                            <img src="images/project.JPG" alt="" class="image-front-12">
+                        </span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-5 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-10">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-6 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-11">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-7 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right">
+                            <img src="images/anime-paradise.jpg" alt="" class="image-front-12">
+                        </span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-9">
+                        </span>
+                    </span>
+                    <span class="cube cube-8 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-10">
+                        </span>
+                    </span>
+                    <span class="cube cube-9 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left"></span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-11">
+                        </span>
+                    </span>
+                    <span class="cube cube-10 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-9">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back">
+                            <img src="images/art-blog.jpg" alt="" class="image-front-12">
+                        </span>
+                    </span>
+                    <span class="cube cube-11 float-down">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-10">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                    <span class="cube cube-12 float-up">
+                        <span class="top"></span>
+                        <span class="bottom"></span>
+                        <span class="left">
+                            <img src="images/fashion-site.jpg" alt="" class="image-front-11">
+                        </span>
+                        <span class="right"></span>
+                        <span class="front"></span>
+                        <span class="back"></span>
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <div class="gallery-open-btn"  onclick="galleryToggle()">
+            <p></p>
+            <p></p>
+        </div>
+
+        <main class="gallery">
+            <div class="img-holder">
+                <img src="" alt="" class="galleryImage">
+                <img src="icons/left.png" alt="" class="prev-image-btn" onclick="prevImage()">
+                <img src="icons/right.png" alt="" class="next-image-btn" onclick="nextImage()">
+            </div>
+        </main>
+
+        <footer>
+            <div class="personal-details">
+                <h6>CONTACT INFO</h6>
+                <p><i class="fas fa-phone"></i>0844705809</p>
+                <p><i class="far fa-envelope"></i>soulcali789@gmail.com</p>
+            </div>
+            <div class="project-links">
+                <h6>PROJECTS</h6>
+                <p><a href="https://justinerenjaeger.github.io/outdoor-adventures/" target="_blank">Outdoor Adventures</a></p>
+                <p><a href="https://justinerenjaeger.github.io/fashion-shop/index.html" target="_blank">NateB</a></p>
+                <p><a href="http://artack-art-blog.7e14.starter-us-west-2.openshiftapps.com/" target="_blank">Antartica</a></p>
+                <p><a href="https://justinerenjaeger.github.io/anime-site/" target="_blank">Anime Paradise</a></p>
+            </div>
+        </footer>
+        <div class="designer">
+            <p>DESIGNED BY JUSTIN CREIGHTON SCD &copy;2019</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/nav-btn-animation.js"></script>
+    <script src="js/projects-cube.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

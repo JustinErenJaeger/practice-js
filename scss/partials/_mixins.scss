@@ -1,0 +1,10 @@
+@mixin buttons {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.7s ease-in-out;
+    z-index: 2000;
+}
