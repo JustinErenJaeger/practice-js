@@ -68,24 +68,6 @@
     box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
-// #menu-toggle-btn {
-//
-//     span {
-//         color: rgb(255, 255, 255);
-//         position: absolute;
-//         margin-top: 0.2rem;
-//         font-size: 0.9rem;
-//         font-family: "Poiret One";
-//         left: 0;
-//         opacity: 0;
-//         transition: opacity 0.3s ease-in-out;
-//     }
-// }
-
-// #menu-toggle-btn:hover span {
-//     opacity: 1;
-// }
-
 // THESE ARE THE STYLES FOR THE HEADING AND MAIN TITLE
 .head {
     text-align: center;
@@ -317,19 +299,7 @@
         position: relative;
         transform-style: preserve-3d;
         margin: 0 auto;
-        transform: translateZ(-16rem);
-
-        // .shadow {
-        //     position: absolute;
-        //     height: 27rem;
-        //     transform-origin: bottom;
-        //     transform: rotateX(-90deg) translateY(12rem) translateZ(4rem);
-        //     bottom: 0;
-        //     left: 0;
-        //     background: rgba(0, 0, 0, 0.527);
-        //     width: 100%;
-        //     transition: all 0.6s ease-in-out 0.4s;
-        // }
+        transform: translateZ(-14rem);
 
         .layer {
             height: 6rem;
@@ -341,7 +311,6 @@
             .cube {
                 position: absolute;
                 top: 0;
-                // background: rgba(255, 0, 0, 0.281);
                 height: 6rem;
                 width: 6rem;
                 transform-style: preserve-3d;
@@ -350,7 +319,7 @@
                     position: absolute;
                     height: 100%;
                     width: 100%;
-                    overflow: hidden;
+                    background: transparent !important;
 
                     img {
                         position: absolute;
@@ -432,6 +401,15 @@
                     transform-origin: bottom;
                     transform: rotateX(-90deg) translateY(3rem);
                     background: rgb(14, 14, 14);
+                    transform-style: preserve-3d;
+
+                    .shadow {
+                        transform-origin: bottom;
+                        transform: rotateX(0deg) translateZ(6rem);
+                        bottom: 0;
+                        left: 0;
+                        background: rgba(0, 0, 0, 0.589);
+                    }
                 }
     
                 .front {
@@ -439,6 +417,7 @@
                     top: 0;
                     left: 0;
                     background: rgb(161, 161, 161);
+                    overflow: hidden;
                 }
     
                 .back {
@@ -446,6 +425,7 @@
                     top: 0;
                     left: 0;
                     background: rgb(88, 88, 88);
+                    overflow: hidden;
                 }
     
                 .left {
@@ -453,7 +433,8 @@
                     transform: rotateY(-90deg) translateX(-3rem);
                     top: 0;
                     left: 0;
-                    background: rgb(78, 78, 78);
+                    background: rgb(56, 56, 56);
+                    overflow: hidden;
                 }
     
                 .right {
@@ -462,6 +443,7 @@
                     top: 0;
                     right: 0;
                     background: rgb(26, 26, 26);
+                    overflow: hidden;
                 }
             }
 

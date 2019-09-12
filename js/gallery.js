@@ -45,32 +45,33 @@ let images = [
             ]
 
 // THIS IS THE FUNTION TO MOVE FORWARD THROUGH THE ARRAY
+
+let index = 0;
+
 function nextImage(){
-    let i = 0;
-    if(i < images.length - 1){
-        currentImage.src = images[i + 1];
-        i++;
+    if(index < images.length - 1){
+        currentImage.src = images[index + 1];
+        index++;
     }
 
     else {
-        i = 0;
-        currentImage.src = images[i];
+        index = 0;
+        currentImage.src = images[index];
     } 
 
-    console.log(images[i]);
+    console.log(images[index]);
 }    
 
 // THIS IS THE FUNCTION TO DECREASE THE VALLUE OF THE ARRAY
 function prevImage(){
-    let i = 0;
-    if(i > 0){
-        currentImage.src = images[i - 1];
-        i--;
+    if(index > 0){
+        currentImage.src = images[index - 1];
+        index--;
     }
 
     else {
         currentImage.src = images[images.length - 1];
-        i = images.length - 1;
+        index = images.length - 1;
     }
 }
 

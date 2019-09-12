@@ -887,7 +887,7 @@ footer {
     position: relative;
     transform-style: preserve-3d;
     margin: 0 auto;
-    transform: translateZ(-16rem); }
+    transform: translateZ(-14rem); }
     .projects .project-cube .layer {
       height: 6rem;
       width: 100%;
@@ -904,7 +904,7 @@ footer {
           position: absolute;
           height: 100%;
           width: 100%;
-          overflow: hidden; }
+          background: transparent !important; }
           .projects .project-cube .layer .cube span img {
             position: absolute;
             width: 24rem;
@@ -956,29 +956,40 @@ footer {
           left: 0;
           transform-origin: bottom;
           transform: rotateX(-90deg) translateY(3rem);
-          background: #0e0e0e; }
+          background: #0e0e0e;
+          transform-style: preserve-3d; }
+          .projects .project-cube .layer .cube .bottom .shadow {
+            transform-origin: bottom;
+            transform: rotateX(0deg) translateZ(6rem);
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.589); }
         .projects .project-cube .layer .cube .front {
           transform: translateZ(3rem);
           top: 0;
           left: 0;
-          background: #a1a1a1; }
+          background: #a1a1a1;
+          overflow: hidden; }
         .projects .project-cube .layer .cube .back {
           transform: translateZ(-3rem) rotateY(180deg);
           top: 0;
           left: 0;
-          background: #585858; }
+          background: #585858;
+          overflow: hidden; }
         .projects .project-cube .layer .cube .left {
           transform-origin: left;
           transform: rotateY(-90deg) translateX(-3rem);
           top: 0;
           left: 0;
-          background: #4e4e4e; }
+          background: #383838;
+          overflow: hidden; }
         .projects .project-cube .layer .cube .right {
           transform-origin: right;
           transform: rotateY(90deg) translateX(3rem);
           top: 0;
           right: 0;
-          background: #1a1a1a; }
+          background: #1a1a1a;
+          overflow: hidden; }
       .projects .project-cube .layer .cube-1 {
         left: 0;
         transform: translateZ(9rem); }
