@@ -394,7 +394,7 @@
                     transform: rotateX(90deg) translateY(-3rem);
                     background: rgb(214, 214, 214);
                 }
-    
+
                 .bottom {
                     bottom: 0;
                     left: 0;
@@ -408,10 +408,10 @@
                         transform: rotateX(0deg) translateZ(6rem);
                         bottom: 0;
                         left: 0;
-                        background: rgba(0, 0, 0, 0.589);
+                        background: rgba(0, 0, 0, 0.589) !important;
                     }
                 }
-    
+
                 .front {
                     transform: translateZ(3rem);
                     top: 0;
@@ -419,7 +419,7 @@
                     background: rgb(161, 161, 161);
                     overflow: hidden;
                 }
-    
+
                 .back {
                     transform: translateZ(-3rem) rotateY(180deg);
                     top: 0;
@@ -427,7 +427,7 @@
                     background: rgb(88, 88, 88);
                     overflow: hidden;
                 }
-    
+
                 .left {
                     transform-origin: left;
                     transform: rotateY(-90deg) translateX(-3rem);
@@ -436,7 +436,7 @@
                     background: rgb(56, 56, 56);
                     overflow: hidden;
                 }
-    
+
                 .right {
                     transform-origin: right;
                     transform: rotateY(90deg) translateX(3rem);
@@ -508,7 +508,7 @@
             }
 
             .float-down-1 {
-                animation: float-down-1 1.4s ease 1; 
+                animation: float-down-1 1.4s ease 1;
             }
 
             @keyframes float-down-1 {
@@ -530,7 +530,7 @@
             }
 
             .float-down-alt {
-                animation: float-down-alt 1.4s ease 1; 
+                animation: float-down-alt 1.4s ease 1;
             }
 
             @keyframes float-down-alt {
